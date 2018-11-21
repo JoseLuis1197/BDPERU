@@ -28,4 +28,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="doneFlag" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="20752ac7-7f4b-4479-9658-b21afa3b5302" ChangeDateTime="11/21/2018 02:18:49">
+    <Property Name="ElementName" Value="[dbo].[tblElementWorkflows].[order]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblElementWorkflows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="orderNumber" />
+  </Operation>
 </Operations>
