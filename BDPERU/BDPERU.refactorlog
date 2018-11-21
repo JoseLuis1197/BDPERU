@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0927509f-9f02-4ef4-b40b-509f59e7f82f" ChangeDateTime="11/21/2018 01:08:18">
+    <Property Name="ElementName" Value="[dbo].[tblElementWorkflows].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblElementWorkflows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed38a8d2-1947-4002-a05a-428b02eb7f1e" ChangeDateTime="11/21/2018 01:25:49">
+    <Property Name="ElementName" Value="[dbo].[tblElementWorkflows].[initialActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblElementWorkflows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="initialFlag" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="81d39c2d-2699-4d9f-8e40-76b45586c15d" ChangeDateTime="11/21/2018 01:25:55">
+    <Property Name="ElementName" Value="[dbo].[tblElementWorkflows].[wipActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblElementWorkflows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="wipFlag" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="606c2ae9-04c3-493e-901a-eadbe4b412c4" ChangeDateTime="11/21/2018 01:25:59">
+    <Property Name="ElementName" Value="[dbo].[tblElementWorkflows].[doneActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblElementWorkflows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="doneFlag" />
+  </Operation>
+</Operations>

@@ -5,4 +5,4 @@
 AS
 	INSERT INTO tblProyects (name,description,usersId)
 	VALUES (@name,@description,@userId) 
-RETURN 0
+RETURN @@IDENTITY

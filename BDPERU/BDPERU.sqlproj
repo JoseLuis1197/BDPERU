@@ -72,5 +72,13 @@
     <Build Include="tblUsers.sql" />
     <Build Include="tblWorkflows.sql" />
     <Build Include="storedProcedures\spCreateProject.sql" />
+    <Build Include="storedProcedures\spCreateElement.sql" />
+    <Build Include="storedProcedures\spCreateWorkflow.sql" />
+    <Build Include="tblElementWorkflows.sql" />
+    <Build Include="storedProcedures\spCreateElementWorkflow.sql" />
+    <Build Include="storedProcedures\spDetailElementWorflow.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="BDPERU.refactorlog" />
   </ItemGroup>
 </Project>
