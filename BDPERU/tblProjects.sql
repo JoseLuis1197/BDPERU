@@ -4,5 +4,6 @@
     [name] NCHAR(50) NOT NULL, 
     [description] NCHAR(200) NULL, 
     [creationDate] DATETIME NOT NULL DEFAULT GETDATE(), 
-    CONSTRAINT [FK_tblProyecto_tblUsers] FOREIGN KEY (id) REFERENCES tblUsers([id]) 
+    [usersId] INT NOT NULL, 
+    CONSTRAINT [FK_tblProyecto_tblUsers] FOREIGN KEY ([usersId]) REFERENCES tblUsers([id]) 
 )

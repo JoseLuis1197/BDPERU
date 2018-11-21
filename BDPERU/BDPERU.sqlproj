@@ -57,6 +57,7 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="storedProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="tblAcceptanceCriterias.sql" />
@@ -70,5 +71,6 @@
     <Build Include="tblSprints.sql" />
     <Build Include="tblUsers.sql" />
     <Build Include="tblWorkflows.sql" />
+    <Build Include="storedProcedures\spCreateProject.sql" />
   </ItemGroup>
 </Project>
