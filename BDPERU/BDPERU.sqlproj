@@ -78,6 +78,9 @@
     <Build Include="storedProcedures\spCreateElementWorkflow.sql" />
     <Build Include="storedProcedures\spDetailElementWorflow.sql" />
     <Build Include="storedProcedures\spModifyElementWorkflow.sql" />
+    <Build Include="storedProcedures\spCreateProjectWorkflow.sql" />
+    <Build Include="storedProcedures\spDetailProjectWorkflow.sql" />
+    <Build Include="storedProcedures\spModifyProjectWorkflow.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BDPERU.refactorlog" />
