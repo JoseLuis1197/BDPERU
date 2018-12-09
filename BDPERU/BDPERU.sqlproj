@@ -81,6 +81,7 @@
     <Build Include="storedProcedures\spCreateProjectWorkflow.sql" />
     <Build Include="storedProcedures\spDetailProjectWorkflow.sql" />
     <Build Include="storedProcedures\spModifyProjectWorkflow.sql" />
+    <Build Include="tblTags.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="BDPERU.refactorlog" />

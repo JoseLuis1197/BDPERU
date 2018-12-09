@@ -2,6 +2,6 @@
 	@workflowId int,
 	@projectId int
 AS
-	INSERT INTO tbl	ProjectWorkflows (projectId,workflowId)
+	INSERT INTO tblProjectWorkflows (projectId,workflowId)
 	VALUES (@projectId,@workflowId)
 RETURN @@IDENTITY
